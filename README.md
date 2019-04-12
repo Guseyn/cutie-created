@@ -31,7 +31,7 @@ class User {
 }
 ```
 
-But in some cases you can get `name` and `email` only via async calls, so you need `User` to have async arguments, but `User` is not an async object. This lib provides object `Created`, which solves the problem.
+But in some cases you can get `name` and `email` only via async calls, so you need `User` to have async arguments, but `User` is not an async object. This lib provides the object `Created`, which solves the problem.
 
 ```js
 const { Created } = require('@cuties/cutie')
@@ -42,7 +42,7 @@ new Created(
 ).call()
 ```
 
-And in this case `Created` represents `User` with properties from specified async objects.
+And in this case `Created` represents `User` with properties from the specified async objects.
 
 So, the signature of `Created` is
 
