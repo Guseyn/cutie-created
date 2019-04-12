@@ -8,7 +8,7 @@
 
 ## Install
 
-`npm install @cuties/jwt`
+`npm install @cuties/created`
 
 ## Run test
 
@@ -18,7 +18,7 @@
 
 `npm run build`
 
-#Example
+## Example
 
 Let's say you have an object `User`:
 
@@ -31,7 +31,7 @@ class User {
 }
 ```
 
-But in some cases you can get `name` and `email` only via async calls, so you need `User` to have async arguments, but `User` is not an async object. This lib provides object `Created`, which solves this problem.
+But in some cases you can get `name` and `email` only via async calls, so you need `User` to have async arguments, but `User` is not an async object. This lib provides object `Created`, which solves the problem.
 
 ```js
 const { Created } = require('@cuties/cutie')
@@ -47,5 +47,5 @@ And in this case `Created` represents `User` with properties from specified asyn
 So, the signature of `Created` is
 
 ```js
-new Created(ObjThatYouNeedToCreate, ...asyncArgs)
+new Created(ObjThatYouNeedToCreate, ...asyncArgsOfObjThatYouNeedToCreate)
 ```
