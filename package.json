@@ -1,6 +1,6 @@
 {
   "name": "@cuties/created",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Creates objects with async arguments.",
   "main": "index.js",
   "scripts": {
