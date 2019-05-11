@@ -25,14 +25,14 @@
     "access": "public"
   },
   "dependencies": {
-    "@cuties/assert": "^1.2.0",
-    "@cuties/cutie": "^1.7.0",
-    "@cuties/fs": "^1.2.1",
-    "@cuties/json": "^1.1.0",
-    "@cuties/object": "^1.1.4",
-    "@cuties/wall": "^1.1.0",
+    "@cuties/assert": "^1.2.2",
+    "@cuties/cutie": "^1.7.5",
+    "@cuties/fs": "^1.2.4",
+    "@cuties/json": "^1.1.1",
+    "@cuties/object": "^1.1.5",
+    "@cuties/wall": "^1.1.2",
     "json-stringify-pretty-compact": "^1.2.0",
-    "test-executor": "^1.2.0"
+    "test-executor": "^1.2.4"
   },
   "devDependencies": {
     "eslint": "^5.14.0",
